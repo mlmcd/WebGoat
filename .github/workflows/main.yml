@@ -6,6 +6,7 @@ name: Tidelift Alignment
 on:
   # Triggers the workflow on push or pull request events but only for the develop branch
   push:
+  schedule:
     - cron: '0 0 * * *' #every day at midnight
 
   # Allows you to run this workflow manually from the Actions tab
