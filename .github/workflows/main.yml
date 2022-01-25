@@ -27,5 +27,5 @@ jobs:
         uses: tidelift/alignment-action@main
         env:
           TIDELIFT_API_KEY: ${{ secrets.TIDELIFT_API_KEY }}
-          TIDELIFT_ORGANIZATION: ${{ secrets.TIDELIFT_ORGANIZATION }}
-          TIDELIFT_PROJECT: ${{ secrets.TIDELIFT_PROJECT }}
+        #  TIDELIFT_ORGANIZATION: ${{ secrets.TIDELIFT_ORGANIZATION }}
+         # TIDELIFT_PROJECT: ${{ secrets.TIDELIFT_PROJECT }}
