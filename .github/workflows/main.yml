@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Alignment
-        uses: tidelift/alignment-action@main
+        uses: mlmcd/alignment-action@main
         env:
           TIDELIFT_API_KEY: ${{ secrets.TIDELIFT_API_KEY }}
           TIDELIFT_ORGANIZATION: ${{ secrets.TIDELIFT_ORGANIZATION }}
